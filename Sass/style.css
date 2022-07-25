@@ -86,6 +86,19 @@ body main .mainProgram .Program h2 {
 body main .mainProgram .Program img {
   height: 3rem;
 }
+body main .speakers {
+  width: 90%;
+  margin: auto;
+}
+body main .speakers img {
+  height: 10rem;
+}
+body main .speakers .divider {
+  width: 15%;
+  margin: auto;
+  height: 3px;
+  background-color: #ec5242;
+}
 body footer .dividerFooter {
   width: 15%;
   margin: auto;

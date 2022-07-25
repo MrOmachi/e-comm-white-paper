@@ -98,6 +98,22 @@ body {
         height: 3rem;
       }
     }
+
+    .speakers {
+      width: 90%;
+      margin: auto;
+    }
+
+    .speakers img {
+      height: 10rem;
+    }
+
+    .speakers .divider {
+      width: 15%;
+      margin: auto;
+      height: 3px;
+      background-color: #ec5242;
+    }
   }
 
   footer {

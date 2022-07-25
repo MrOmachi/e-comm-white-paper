@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f9f9f9 !important;
+
+  header {
+    width: 90%;
+    margin: auto;
+
+    h3 {
+      color: #ec5242;
+      font-size: 24px;
+      font-family: 'Kanit' sans-serif;
+      font-weight: 300;
+      padding: 25px 0 10px 0;
+    }
+
+    h1 {
+      color: #ec5242;
+      font-weight: 700;
+      font-size: 3rem;
+      line-height: 1em;
+    }
+  }
+
+  main {
+    width: 90%;
+    margin: auto;
+
+    .hero {
+      background-image: url(../img/shape-set-01.png);
+      background-size: 250px;
+      background-position-y: 200px;
+      background-repeat: no-repeat;
+      padding: 2rem 1rem 7rem 1rem;
+
+      article {
+        background-color: #f7f7f7;
+        border: solid 0.25rem white;
+        margin: 15px 0;
+      }
+    }
+
+    .mainProgram {
+      background-image: url(../img/download.svg);
+      background-color: #272a31;
+      padding: 25px 0;
+
+      button {
+        width: 92%;
+        margin: auto;
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #ec5242;
+        color: white;
+        padding: 24px 48px;
+        font-weight: 600px;
+        cursor: pointer;
+        align-self: center;
+      }
+
+      .divider {
+        width: 15%;
+        margin: auto;
+        height: 3px;
+        background-color: #ec5242;
+      }
+
+      .Program {
+        width: 95%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 10px;
+        background-color: #fff1;
+        padding: 5px;
+      }
+
+      .Program p {
+        font-size: 16px;
+        width: 60%;
+      }
+
+      .Program h2 {
+        color: #ec5242;
+        padding: 0 10px;
+
+        font-size: 1.5rem;
+      }
+
+      .Program img {
+        height: 3rem;
+      }
+    }
+  }
+
+  footer {
+    .dividerFooter {
+      width: 15%;
+      margin: auto;
+      height: 3px;
+      background-color: #ec5242;
+    }
+
+    .footerIcons {
+      background-color: #333;
+      color: white;
+      padding-top: 30px;
+      padding-bottom: 10px;
+    }
+
+    .footerIcons .icons {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 25px 0 8px 0;
+    }
+
+    img {
+      padding: 20px;
+    }
+    .icons .icons11 {
+      // width: 200px !important;
+    }
+  }
+}

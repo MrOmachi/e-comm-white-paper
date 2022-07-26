@@ -18,6 +18,10 @@ body {
     margin: 20px 0 0 1px;
   }
 
+  .show {
+    display: flex !important;
+  }
+
   .hide {
     display: none;
   }
@@ -53,7 +57,7 @@ body {
     .hero {
       background-image: url(../img/shape-set-01.png);
       background-size: 250px;
-      background-position-y: 200px;
+      background-position-y: 210px;
       background-repeat: no-repeat;
       padding: 2rem 1rem 7rem 1rem;
 
@@ -156,6 +160,10 @@ body {
       justify-content: center;
       align-items: center;
       padding: 25px 0 8px 0;
+    }
+
+    .logo img {
+      height: 8rem;
     }
 
     img {

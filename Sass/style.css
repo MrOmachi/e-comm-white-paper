@@ -17,6 +17,9 @@ body .showUlItems {
   align-items: center;
   margin: 20px 0 0 1px;
 }
+body .show {
+  display: flex !important;
+}
 body .hide {
   display: none;
 }
@@ -47,7 +50,7 @@ body main {
 body main .hero {
   background-image: url(../img/shape-set-01.png);
   background-size: 250px;
-  background-position-y: 200px;
+  background-position-y: 210px;
   background-repeat: no-repeat;
   padding: 2rem 1rem 7rem 1rem;
 }
@@ -133,6 +136,9 @@ body footer .footerIcons .icons {
   justify-content: center;
   align-items: center;
   padding: 25px 0 8px 0;
+}
+body footer .logo img {
+  height: 8rem;
 }
 body footer img {
   padding: 20px;

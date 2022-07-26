@@ -141,8 +141,28 @@ body {
     img {
       padding: 20px;
     }
-    .icons .icons11 {
-      // width: 200px !important;
-    }
+  }
+}
+
+.aboutMain {
+  .aboutHero {
+    background-image: url(../img/shape-set-01.png);
+    background-size: 150px;
+    background-position-x: center;
+    background-position-y: top;
+    background-repeat: no-repeat;
+    padding: 4rem 1rem 1rem 1rem;
+  }
+
+  .twentyThirteen {
+    background: linear-gradient(rgba(100, 0, 10, 0.5), rgba(100, 0, 8, 0.5)),
+      url(../img/Concert3.jpg);
+    background-repeat: no-repeat;
+    height: 200px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }

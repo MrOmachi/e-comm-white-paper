@@ -6,9 +6,22 @@
 body {
   background-color: #f9f9f9 !important;
 }
+body .showUlItems {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0 0 1px;
+}
+body .hide {
+  display: none;
+}
 body header {
   width: 90%;
   margin: auto;
+}
+body header .logo img {
+  height: 4rem;
 }
 body header h3 {
   color: #ec5242;

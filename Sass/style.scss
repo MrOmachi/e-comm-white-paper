@@ -6,13 +6,25 @@
 body {
   background-color: #f9f9f9 !important;
 
-  // .desktopNav{
-  //   display: none;
-  // }
+  .showUlItems {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0 0 1px;
+  }
+
+  .hide {
+    display: none;
+  }
 
   header {
     width: 90%;
     margin: auto;
+
+    .logo img {
+      height: 4rem;
+    }
 
     h3 {
       color: #ec5242;

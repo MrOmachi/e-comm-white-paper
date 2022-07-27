@@ -1,6 +1,5 @@
 @import url("http://fonts.cdnfonts.com/css/cocogoose");
 @import url("http://fonts.cdnfonts.com/css/lato");
-
 * {
   margin: 0;
   padding: 0;
@@ -14,7 +13,6 @@ body {
   background-color: #f9f9f9 !important;
   position: relative;
 }
-
 body .aboutMLogo {
   display: flex;
   flex-direction: column;
@@ -23,15 +21,12 @@ body .aboutMLogo {
   padding: 60px;
   width: 70%;
 }
-
 body footer img {
   padding: 20px;
 }
-
 body .logo img {
   height: 8rem;
 }
-
 body .showUlItems {
   display: flex !important;
   flex-direction: column;
@@ -47,29 +42,23 @@ body .showUlItems {
   overflow-y: hidden;
   z-index: 100;
 }
-
 body .showUlItems a {
   color: white !important;
   font-size: 20px;
 }
-
 body .show {
   display: flex !important;
 }
-
 body .hide {
   display: none;
 }
-
 body header {
   width: 90%;
   margin: auto;
 }
-
 body header .logo img {
   height: 4rem;
 }
-
 body header h3 {
   color: #ec5242;
   font-size: 24px;
@@ -77,7 +66,6 @@ body header h3 {
   font-weight: 300;
   padding: 25px 0 10px 0;
 }
-
 body header h1 {
   color: #ec5242;
   font-weight: 700;
@@ -85,12 +73,10 @@ body header h1 {
   font-size: 3rem;
   line-height: 1em;
 }
-
 body main {
   width: 90%;
   margin: auto;
 }
-
 body main .hero {
   background-image: url(../img/shape-set-01.png);
   background-size: 250px;
@@ -98,32 +84,27 @@ body main .hero {
   background-repeat: no-repeat;
   padding: 2rem 1rem 7rem 1rem;
 }
-
 body main .hero .moment {
   background-color: #f7f7f7;
   border: solid 0.25rem white;
   font-family: "Lato", sans-serif;
   margin: 15px 0;
 }
-
 body main .hero .date {
   font-family: "COCOGOOSE", sans-serif;
   font-weight: 900;
   font-size: 30px;
 }
-
 body main .hero .ejay {
   font-family: "COCOGOOSE", sans-serif;
   font-weight: 800;
   font-size: 20px;
 }
-
 body main .mainProgram {
   background-image: url(../img/download.svg);
   background-color: #272a31;
   padding: 25px 0;
 }
-
 body main .mainProgram button {
   width: 92%;
   margin: auto;
@@ -138,14 +119,12 @@ body main .mainProgram button {
   cursor: pointer;
   align-self: center;
 }
-
 body main .mainProgram .divider {
   width: 15%;
   margin: auto;
   height: 3px;
   background-color: #ec5242;
 }
-
 body main .mainProgram .Program {
   width: 95%;
   margin: auto;
@@ -156,31 +135,25 @@ body main .mainProgram .Program {
   background-color: rgba(255, 255, 255, 0.0666666667);
   padding: 5px;
 }
-
 body main .mainProgram .speakers {
   width: 90%;
   margin: auto;
 }
-
 body main .mainProgram .speakers h4 {
   font-weight: 500;
   font-family: "COCOGOOSE", sans-serif;
 }
-
 body main .mainProgram .speakers h5 {
   font-family: "COCOGOOSE", sans-serif;
 }
-
 body main .mainProgram .speakers p {
   font-weight: 400;
   font-family: "Lato", sans-serif;
 }
-
 body main .mainProgram .Program p {
   font-size: 16px;
   width: 50%;
 }
-
 body main .mainProgram .Program h2 {
   width: 40%;
   color: #ec5242;
@@ -188,42 +161,35 @@ body main .mainProgram .Program h2 {
   font-size: 1.5rem;
   font-size: 17px;
 }
-
 body main .mainProgram .speakers img {
   width: 5%;
 }
-
 body main .mainProgram .Program img {
   height: 3rem;
 }
-
 body main .speakers .divider {
   width: 15%;
   margin: auto;
   height: 3px;
   background-color: #ec5242;
 }
-
 body footer .dividerFooter {
   width: 10%;
   margin: auto;
   height: 3px;
   background-color: #ec5242;
 }
-
 body footer .copyRight {
   display: flex;
   justify-content: center;
   gap: 90px;
 }
-
 body footer .footerIcons {
   background-color: #333;
   color: white;
   padding-top: 30px;
   padding-bottom: 10px;
 }
-
 body footer .footerIcons .icons {
   display: flex;
   justify-content: center;
@@ -239,7 +205,6 @@ body footer .footerIcons .icons {
   background-repeat: no-repeat;
   padding: 4rem 1rem 1rem 1rem;
 }
-
 .aboutMain .twentyThirteen {
   background: linear-gradient(rgba(100, 0, 10, 0.5), rgba(100, 0, 8, 0.5)), url(../img/Concert3.jpg);
   background-repeat: no-repeat;
@@ -257,13 +222,11 @@ body footer .footerIcons .icons {
     padding: 0 !important;
     align-items: center;
   }
-
   .Program p {
     font-size: 16px;
     width: 100% !important;
     text-align: center;
   }
-
   .Program h2 {
     color: #ec5242;
     padding: 0 !important;
@@ -271,29 +234,28 @@ body footer .footerIcons .icons {
     font-size: 17px;
     margin: 0 !important;
   }
-
   button {
     background: none !important;
     text-decoration: underline;
     font-size: 15px;
   }
-
   .dividerFooter {
     width: 7% !important;
     margin: auto;
   }
-
   .aboutfooterIcons {
     display: none;
   }
-
   .aboutFooter {
     margin: 20px;
     background-color: #272a31 !important;
     color: white;
   }
-
   .copyRight {
     padding: 0 !important;
   }
-}
+  .speakers {
+    width: 90%;
+    margin: auto;
+  }
+}/*# sourceMappingURL=style.css.map */

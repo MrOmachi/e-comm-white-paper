@@ -1,3 +1,6 @@
+@import url('http://fonts.cdnfonts.com/css/cocogoose');
+@import url('http://fonts.cdnfonts.com/css/lato');
+
 * {
   margin: 0;
   padding: 0;
@@ -60,7 +63,7 @@ body {
     h3 {
       color: #ec5242;
       font-size: 24px;
-      font-family: 'Kanit', sans-serif;
+      font-family: 'COCOGOOSE', sans-serif;
       font-weight: 300;
       padding: 25px 0 10px 0;
     }
@@ -68,6 +71,7 @@ body {
     h1 {
       color: #ec5242;
       font-weight: 700;
+      font-family: 'COCOGOOSE', sans-serif;
       font-size: 3rem;
       line-height: 1em;
     }
@@ -80,14 +84,27 @@ body {
     .hero {
       background-image: url(../img/shape-set-01.png);
       background-size: 250px;
-      background-position-y: 210px;
+      background-position-y: 250px;
       background-repeat: no-repeat;
       padding: 2rem 1rem 7rem 1rem;
 
-      article {
+      .moment {
         background-color: #f7f7f7;
         border: solid 0.25rem white;
+        font-family: 'Lato', sans-serif;
         margin: 15px 0;
+      }
+
+      .date {
+        font-family: 'COCOGOOSE', sans-serif;
+        font-weight: 900;
+        font-size: 30px;
+      }
+
+      .ejay {
+        font-family: 'COCOGOOSE', sans-serif;
+        font-weight: 800;
+        font-size: 20px;
       }
     }
 

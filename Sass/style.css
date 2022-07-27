@@ -18,7 +18,7 @@ body .aboutMLogo {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 60px;
+  padding: 60px 0;
   width: 70%;
 }
 body footer img {

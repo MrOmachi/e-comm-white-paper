@@ -71,7 +71,7 @@ body header h3 {
   color: #ec5242;
   width: 80%;
   margin: auto;
-  font-size: 24px;
+  font-size: 20px;
   font-family: "COCOGOOSE", sans-serif;
   font-weight: 300;
   padding: 25px 0 10px 0;
@@ -80,8 +80,7 @@ body header h1 {
   color: #ec5242;
   font-weight: 700;
   font-family: "COCOGOOSE", sans-serif;
-  font-size: 3rem;
-  line-height: 1em;
+  font-size: 30px;
   width: 80%;
   margin: auto;
 }
@@ -98,22 +97,23 @@ body main .hero {
 }
 body main .hero .moment {
   background-color: #f7f7f7;
-  width: 80%;
+  width: 90%;
   margin: auto;
   border: solid 0.25rem white;
   font-family: "Lato", sans-serif;
 }
 body main .hero .date {
   font-family: "COCOGOOSE", sans-serif;
-  font-weight: 900;
-  font-size: 30px;
+  font-weight: 600;
+  font-size: 17px;
+  padding-top: 10px;
   width: 80%;
   margin: auto;
 }
 body main .hero .ejay {
   font-family: "COCOGOOSE", sans-serif;
   font-weight: 800;
-  font-size: 20px;
+  font-size: 17px;
   width: 80%;
   margin: auto;
 }

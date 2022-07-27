@@ -10,43 +10,59 @@ html {
 body {
   background-color: #f9f9f9 !important;
 }
+
+body footer img {
+  padding: 20px;
+}
+
+body .logo img {
+  height: 8rem;
+}
+
 body .showUlItems {
   display: flex !important;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 20px 0 0 1px;
 }
+
 body .show {
   display: flex !important;
 }
+
 body .hide {
   display: none;
 }
+
 body header {
   width: 90%;
   margin: auto;
 }
+
 body header .logo img {
   height: 4rem;
 }
+
 body header h3 {
   color: #ec5242;
   font-size: 24px;
-  font-family: "Kanit" sans-serif;
+  font-family: "Kanit", sans-serif;
   font-weight: 300;
   padding: 25px 0 10px 0;
 }
+
 body header h1 {
   color: #ec5242;
   font-weight: 700;
   font-size: 3rem;
   line-height: 1em;
 }
+
 body main {
   width: 90%;
   margin: auto;
 }
+
 body main .hero {
   background-image: url(../img/shape-set-01.png);
   background-size: 250px;
@@ -54,16 +70,19 @@ body main .hero {
   background-repeat: no-repeat;
   padding: 2rem 1rem 7rem 1rem;
 }
+
 body main .hero article {
   background-color: #f7f7f7;
   border: solid 0.25rem white;
   margin: 15px 0;
 }
+
 body main .mainProgram {
   background-image: url(../img/download.svg);
   background-color: #272a31;
   padding: 25px 0;
 }
+
 body main .mainProgram button {
   width: 92%;
   margin: auto;
@@ -78,12 +97,14 @@ body main .mainProgram button {
   cursor: pointer;
   align-self: center;
 }
+
 body main .mainProgram .divider {
   width: 15%;
   margin: auto;
   height: 3px;
   background-color: #ec5242;
 }
+
 body main .mainProgram .Program {
   width: 95%;
   margin: auto;
@@ -94,54 +115,57 @@ body main .mainProgram .Program {
   background-color: rgba(255, 255, 255, 0.0666666667);
   padding: 5px;
 }
+
 body main .mainProgram .Program p {
   font-size: 16px;
   width: 60%;
 }
+
 body main .mainProgram .Program h2 {
   color: #ec5242;
   padding: 0 10px;
   font-size: 1.5rem;
 }
+
+body main .mainProgram .speakers img {
+  height: 10rem;
+}
+
 body main .mainProgram .Program img {
   height: 3rem;
 }
+
 body main .speakers {
   width: 90%;
   margin: auto;
 }
-body main .speakers img {
-  height: 10rem;
-}
+
 body main .speakers .divider {
   width: 15%;
   margin: auto;
   height: 3px;
   background-color: #ec5242;
 }
+
 body footer .dividerFooter {
   width: 15%;
   margin: auto;
   height: 3px;
   background-color: #ec5242;
 }
+
 body footer .footerIcons {
   background-color: #333;
   color: white;
   padding-top: 30px;
   padding-bottom: 10px;
 }
+
 body footer .footerIcons .icons {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 25px 0 8px 0;
-}
-body footer .logo img {
-  height: 8rem;
-}
-body footer img {
-  padding: 20px;
 }
 
 .aboutMain .aboutHero {
@@ -152,6 +176,7 @@ body footer img {
   background-repeat: no-repeat;
   padding: 4rem 1rem 1rem 1rem;
 }
+
 .aboutMain .twentyThirteen {
   background: linear-gradient(rgba(100, 0, 10, 0.5), rgba(100, 0, 8, 0.5)), url(../img/Concert3.jpg);
   background-repeat: no-repeat;
@@ -161,4 +186,4 @@ body footer img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}/*# sourceMappingURL=style.css.map */
+}

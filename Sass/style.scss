@@ -10,9 +10,16 @@ html {
 body {
   background-color: #f9f9f9 !important;
 
+  footer img {
+    padding: 20px;
+  }
+
+  .logo img {
+    height: 8rem;
+  }
+
   .showUlItems {
     display: flex !important;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 20px 0 0 1px;
@@ -37,7 +44,7 @@ body {
     h3 {
       color: #ec5242;
       font-size: 24px;
-      font-family: 'Kanit' sans-serif;
+      font-family: 'Kanit', sans-serif;
       font-weight: 300;
       padding: 25px 0 10px 0;
     }
@@ -114,8 +121,11 @@ body {
       .Program h2 {
         color: #ec5242;
         padding: 0 10px;
-
         font-size: 1.5rem;
+      }
+
+      .speakers img {
+        height: 10rem;
       }
 
       .Program img {
@@ -126,10 +136,6 @@ body {
     .speakers {
       width: 90%;
       margin: auto;
-    }
-
-    .speakers img {
-      height: 10rem;
     }
 
     .speakers .divider {
@@ -161,14 +167,6 @@ body {
       align-items: center;
       padding: 25px 0 8px 0;
     }
-
-    .logo img {
-      height: 8rem;
-    }
-
-    img {
-      padding: 20px;
-    }
   }
 }
 
@@ -183,7 +181,8 @@ body {
   }
 
   .twentyThirteen {
-    background: linear-gradient(rgba(100, 0, 10, 0.5), rgba(100, 0, 8, 0.5)),
+    background:
+      linear-gradient(rgba(100, 0, 10, 0.5), rgba(100, 0, 8, 0.5)),
       url(../img/Concert3.jpg);
     background-repeat: no-repeat;
     height: 200px;

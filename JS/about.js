@@ -1,11 +1,9 @@
-let hamburger = document.getElementById('hamburger');
-let desktopList = document.getElementById('desktopList');
-let closeX = document.getElementById('closeX');
-let speaker3 = document.getElementById('speaker3');
-let speakersDiv = document.getElementById('speakersDiv');
+const hamburger = document.getElementById('hamburger');
+const desktopList = document.getElementById('desktopList');
+const closeX = document.getElementById('closeX');
 
 [hamburger, closeX, desktopList].forEach((elem) => {
-  elem.addEventListener('click', function () {
+  elem.addEventListener('click', () => {
     desktopList.classList.toggle('showUlItems');
     closeX.classList.toggle('showUlItems');
     hamburger.classList.toggle('hide');

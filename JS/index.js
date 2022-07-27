@@ -30,7 +30,7 @@ const speakersArr = [
 ];
 
 [hamburger, closeX, desktopList].forEach((elem) => {
-  elem.addEventListener('click', function () {
+  elem.addEventListener('click', () => {
     desktopList.classList.toggle('showUlItems');
     closeX.classList.toggle('showUlItems');
     hamburger.classList.toggle('hide');
@@ -87,14 +87,15 @@ function speakers() {
   <button id="btn" class="w-100 my-5 p-4 d-md-none">SHOW MORE</button>`;
   speakersDiv.innerHTML = data;
 
+  const btn = document.getElementById('btn');
+  const speaker3 = document.getElementById('speaker3');
+
   btn.addEventListener('click', () => {
     speaker3.classList.toggle('show');
-    if (btn.innerHTML == 'SHOW MORE') {
+    if (btn.innerHTML === 'SHOW MORE') {
       btn.innerHTML = 'SHOW LESS';
-    } else if (btn.innerHTML == 'SHOW LESS') {
+    } else if (btn.innerHTML === 'SHOW LESS') {
       btn.innerHTML = 'SHOW MORE';
-    } else {
-      null;
     }
   });
 }

@@ -9,6 +9,7 @@ html {
 
 body {
   background-color: #f9f9f9 !important;
+  position: relative;
 
   footer img {
     padding: 20px;
@@ -20,13 +21,28 @@ body {
 
   .showUlItems {
     display: flex !important;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #ec5242;
+    position: fixed;
+    padding-top: 40px;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: 0 !important;
+    overflow-y: hidden;
+    z-index: 100;
     margin: 20px 0 0 1px;
+
+    a {
+      color: white !important;
+      font-size: 20px;
+    }
   }
 
   .show {
-    display: flex !important;
+    display: flex;
   }
 
   .hide {
@@ -181,8 +197,7 @@ body {
   }
 
   .twentyThirteen {
-    background:
-      linear-gradient(rgba(100, 0, 10, 0.5), rgba(100, 0, 8, 0.5)),
+    background: linear-gradient(rgba(100, 0, 10, 0.5), rgba(100, 0, 8, 0.5)),
       url(../img/Concert3.jpg);
     background-repeat: no-repeat;
     height: 200px;

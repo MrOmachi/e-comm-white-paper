@@ -23,7 +23,6 @@
     <header>
       <nav class="mobileNav d-md-none">
         <i class="fa fa-bars pt-4 fa-3x" id="hamburger" aria-hidden="true"></i>
-        <img id="closeX" class="d-none" src="../img/close.png" alt="" />
       </nav>
       <nav class="desktopNav mt-3">
         <div
@@ -33,34 +32,44 @@
             <a class="logo" href="./index.html"
               ><img src="../img/logo.jpeg" alt=""
             /></a>
+            <br />
           </div>
-          <ul
-            id="desktopList"
-            class="items list-unstyled d-flex gap-4 align-items-center d-none d-md-flex flex-column flex-md-row"
-          >
-            <li>
-              <a class="text-decoration-none text-dark" href="#program"
-                >Program</a
-              >
-            </li>
-            <li>
-              <a class="text-decoration-none text-dark" href="#speakers"
-                >Speakers</a
-              >
-            </li>
-            <li>
-              <a class="text-decoration-none text-dark" href="#sponsors"
-                >Sponsors</a
-              >
-            </li>
-            <li class="ms-5 me-5 border border-danger p-2 bg-danger">
-              <a
-                class="text-decoration-none text-white"
-                href="../About/about.html"
-                >About</a
-              >
-            </li>
-          </ul>
+          <div id="desktopList" class="d-none d-md-flex">
+            <img
+              id="closeX"
+              class="d-none ps-5 mb-5"
+              src="../img/close.png"
+              alt=""
+            />
+            <ul
+              class="items list-unstyled d-flex gap-4 align-items-center d-md-flex flex-column flex-md-row pt-5 pt-md-0"
+            >
+              <li class="ulLi">
+                <a class="text-decoration-none text-dark" href="#program"
+                  >Program</a
+                >
+              </li>
+              <li class="ulLi">
+                <a class="text-decoration-none text-dark" href="#speakers"
+                  >Speakers</a
+                >
+              </li>
+              <li class="ulLi">
+                <a
+                  class="text-decoration-none text-dark text-md-dark"
+                  href="#sponsors"
+                  >Sponsors</a
+                >
+              </li>
+              <li class="ulLi ms-5 me-5 border border-danger p-2 bg-danger">
+                <a
+                  class="text-decoration-none text-white"
+                  href="../About/about.html"
+                  >About</a
+                >
+              </li>
+            </ul>
+          </div>
         </div>
       </nav>
       <h3>"Sharing with the world"</h3>

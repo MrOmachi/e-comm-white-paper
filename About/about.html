@@ -23,7 +23,6 @@
     <header>
       <nav class="mobileNav d-md-none">
         <i class="fa fa-bars pt-4 fa-3x" id="hamburger" aria-hidden="true"></i>
-        <img id="closeX" class="d-none" src="../img/close.png" alt="" />
       </nav>
       <nav class="desktopNav mt-3">
         <div
@@ -34,26 +33,35 @@
               ><img src="../img/logo.jpeg" alt="logo"
             /></a>
           </div>
-          <ul
-            id="desktopList"
-            class="items list-unstyled d-flex gap-4 align-items-center d-none d-md-flex"
-          >
-            <li>
-              <a class="text-decoration-none text-dark" href="#event"
-                >Recent Event</a
-              >
-            </li>
-            <li>
-              <a class="text-decoration-none text-dark" href="#sponsors"
-                >Sponsors</a
-              >
-            </li>
-            <li class="ms-5 me-5 border border-danger p-2 bg-danger">
-              <a class="text-decoration-none text-white" href="../index.html"
-                >Home</a
-              >
-            </li>
-          </ul>
+          <div id="desktopList" class="d-none d-md-flex">
+            <img
+              id="closeX"
+              class="d-none ps-5 mb-5"
+              src="../img/close.png"
+              alt=""
+            />
+            <ul
+              class="items list-unstyled d-flex gap-4 align-items-center d-md-flex flex-column flex-md-row pt-5 pt-md-0"
+            >
+              <li class="ulLi">
+                <a class="text-decoration-none text-dark" href="#event"
+                  >Recent Events</a
+                >
+              </li>
+              <li class="ulLi">
+                <a
+                  class="text-decoration-none text-dark text-md-dark"
+                  href="#sponsors"
+                  >Sponsors</a
+                >
+              </li>
+              <li class="ulLi ms-5 me-5 border border-danger p-2 bg-danger">
+                <a class="text-decoration-none text-white" href="../index.html"
+                  >Home</a
+                >
+              </li>
+            </ul>
+          </div>
         </div>
       </nav>
       <h3 class="text-center">"Sharing with the world"</h3>
@@ -140,7 +148,7 @@
         </p>
       </div>
     </footer>
-    <script src="../JS/about.js"></script>
+    <script src="../JS/index.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"

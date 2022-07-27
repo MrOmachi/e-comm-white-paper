@@ -28,12 +28,27 @@ const speakersArr = [
       'Speaker has 18yaers experience in ecommerce with four awards from four different e-com academies',
   },
 ];
+const ulLi = document.querySelectorAll('.ulLi');
+const liArr = Array.from(ulLi);
 
-[hamburger, closeX, desktopList].forEach((elem) => {
-  elem.addEventListener('click', () => {
-    desktopList.classList.toggle('showUlItems');
-    closeX.classList.toggle('showUlItems');
-    hamburger.classList.toggle('hide');
+hamburger.addEventListener('click', () => {
+  desktopList.classList.toggle('showUlItems');
+  closeX.classList.toggle('showUlItems');
+  hamburger.classList.toggle('hide');
+});
+
+closeX.addEventListener('click', () => {
+  hamburger.classList.toggle('hide');
+  desktopList.classList.toggle('showUlItems');
+  closeX.classList.toggle('showUlItems');
+});
+
+console.log(liArr);
+liArr.forEach((el) => {
+  el.addEventListener('click', () => {
+    hamburger.classList.remove('hide');
+    desktopList.classList.remove('showUlItems');
+    closeX.classList.remove('showUlItems');
   });
 });
 

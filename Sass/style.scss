@@ -61,8 +61,18 @@ body {
   }
 
   header {
-    width: 90%;
+    width: 100%;
     margin: auto;
+
+    .topNavContain{
+      width: 80%;
+      margin: auto;
+    }
+
+    .desktopNav{
+      width: 90%;
+      margin: auto;
+    }
 
     .logo img {
       height: 4rem;
@@ -70,6 +80,8 @@ body {
 
     h3 {
       color: #ec5242;
+      width: 80%;
+      margin: auto;
       font-size: 24px;
       font-family: 'COCOGOOSE', sans-serif;
       font-weight: 300;
@@ -82,6 +94,8 @@ body {
       font-family: 'COCOGOOSE', sans-serif;
       font-size: 3rem;
       line-height: 1em;
+      width: 80%;
+      margin: auto;
     }
   }
 
@@ -98,21 +112,26 @@ body {
 
       .moment {
         background-color: #f7f7f7;
+        width: 80%;
+        margin: auto;
         border: solid 0.25rem white;
         font-family: 'Lato', sans-serif;
-        margin: 15px 0;
       }
 
       .date {
         font-family: 'COCOGOOSE', sans-serif;
         font-weight: 900;
         font-size: 30px;
+        width: 80%;
+        margin: auto;
       }
 
       .ejay {
         font-family: 'COCOGOOSE', sans-serif;
         font-weight: 800;
         font-size: 20px;
+        width: 80%;
+        margin: auto;
       }
     }
 
@@ -244,8 +263,7 @@ body {
   }
 
   .twentyThirteen {
-    background:
-      linear-gradient(rgba(100, 0, 10, 0.5), rgba(100, 0, 8, 0.5)),
+    background: linear-gradient(rgba(100, 0, 10, 0.5), rgba(100, 0, 8, 0.5)),
       url(../img/Concert3.jpg);
     background-repeat: no-repeat;
     height: 200px;
@@ -306,5 +324,10 @@ body {
   .speakers {
     width: 90%;
     margin: auto;
+  }
+
+  .topNav {
+    display: flex;
+    justify-content: space-between;
   }
 }

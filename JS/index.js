@@ -172,7 +172,6 @@ function speakers() {
   const btn = document.getElementById('btn');
   const speaker6 = document.getElementById('speaker6');
 
-  console.log(speaker6);
   btn.addEventListener('click', () => {
     speaker6.classList.toggle('show');
     if (btn.innerHTML === 'SHOW MORE') {

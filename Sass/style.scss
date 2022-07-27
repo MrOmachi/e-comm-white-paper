@@ -45,7 +45,6 @@ body {
     margin: 0 !important;
     overflow-y: hidden;
     z-index: 100;
-    margin: 20px 0 0 1px;
 
     a {
       color: white !important;
@@ -155,6 +154,25 @@ body {
         padding: 5px;
       }
 
+      .speakers {
+        width: 90%;
+        margin: auto;
+
+        h4 {
+          font-weight: 500;
+          font-family: 'COCOGOOSE', sans-serif;
+        }
+
+        h5 {
+          font-family: 'COCOGOOSE', sans-serif;
+        }
+
+        p {
+          font-weight: 400;
+          font-family: 'Lato', sans-serif;
+        }
+      }
+
       .Program p {
         font-size: 16px;
         width: 50%;
@@ -174,27 +192,6 @@ body {
 
       .Program img {
         height: 3rem;
-      }
-    }
-
-    .speakers {
-      width: 90%;
-      margin: auto;
-    }
-
-    .speakers {
-      h4 {
-        font-weight: 500;
-        font-family: 'COCOGOOSE', sans-serif;
-      }
-
-      h5 {
-        font-family: 'COCOGOOSE', sans-serif;
-      }
-
-      p {
-        font-weight: 400;
-        font-family: 'Lato', sans-serif;
       }
     }
 
@@ -247,7 +244,8 @@ body {
   }
 
   .twentyThirteen {
-    background: linear-gradient(rgba(100, 0, 10, 0.5), rgba(100, 0, 8, 0.5)),
+    background:
+      linear-gradient(rgba(100, 0, 10, 0.5), rgba(100, 0, 8, 0.5)),
       url(../img/Concert3.jpg);
     background-repeat: no-repeat;
     height: 200px;

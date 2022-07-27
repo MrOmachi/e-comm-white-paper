@@ -1,7 +1,6 @@
 const hamburger = document.getElementById('hamburger');
 const desktopList = document.getElementById('desktopList');
 const closeX = document.getElementById('closeX');
-const speakersDiv = document.getElementById('speakersDiv');
 const ulLi = document.querySelectorAll('.ulLi');
 const liArr = Array.from(ulLi);
 

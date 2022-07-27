@@ -74,6 +74,12 @@ Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
 
+## Acknowledgements
+
+Cindy Shin (template creator)
+
+[Cindy Shin Template](https://www.behance.net/adagio07)
+
 ## Show your support
 
 Give a ⭐️ if you like this project!

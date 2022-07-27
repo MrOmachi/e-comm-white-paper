@@ -211,4 +211,9 @@ body footer .footerIcons .icons {
     font-size: 17px;
     margin: 0 !important;
   }
+  button {
+    background: none !important;
+    text-decoration: underline;
+    font-size: 15px;
+  }
 }/*# sourceMappingURL=style.css.map */

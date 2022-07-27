@@ -64,12 +64,12 @@ body {
     width: 100%;
     margin: auto;
 
-    .topNavContain{
+    .topNavContain {
       width: 80%;
       margin: auto;
     }
 
-    .desktopNav{
+    .desktopNav {
       width: 90%;
       margin: auto;
     }
@@ -267,7 +267,8 @@ body {
   }
 
   .twentyThirteen {
-    background: linear-gradient(rgba(100, 0, 10, 0.5), rgba(100, 0, 8, 0.5)),
+    background:
+      linear-gradient(rgba(100, 0, 10, 0.5), rgba(100, 0, 8, 0.5)),
       url(../img/Concert3.jpg);
     background-repeat: no-repeat;
     height: 200px;
@@ -336,6 +337,4 @@ body {
     display: flex;
     justify-content: space-between;
   }
-
-  
 }

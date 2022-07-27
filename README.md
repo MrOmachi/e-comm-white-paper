@@ -11,7 +11,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://mromachi.github.io/e-comm-white-paper/)
+[Live Demo Link](https://deploy-preview-1--gentle-licorice-3a27f2.netlify.app/index.html)
 
 ## Getting Started
 

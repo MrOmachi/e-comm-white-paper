@@ -27,6 +27,30 @@ const speakersArr = [
     speakerqualif:
       'Speaker has 18yaers experience in ecommerce with four awards from four different e-com academies',
   },
+  {
+    id: 4,
+    image: '../img/person3.jpg',
+    speakerName: 'Nurudeen Salifu',
+    aboutSpeaker: 'A graduate of Noors ecom space',
+    speakerqualif:
+      'Speaker has 18yaers experience in ecommerce with four awards from four different e-com academies',
+  },
+  {
+    id: 5,
+    image: '../img/person3.jpg',
+    speakerName: 'Nurudeen Salifu',
+    aboutSpeaker: 'A graduate of Noors ecom space',
+    speakerqualif:
+      'Speaker has 18yaers experience in ecommerce with four awards from four different e-com academies',
+  },
+  {
+    id: 6,
+    image: '../img/person3.jpg',
+    speakerName: 'Nurudeen Salifu',
+    aboutSpeaker: 'A graduate of Noors ecom space',
+    speakerqualif:
+      'Speaker has 18yaers experience in ecommerce with four awards from four different e-com academies',
+  },
 ];
 const ulLi = document.querySelectorAll('.ulLi');
 const liArr = Array.from(ulLi);
@@ -43,7 +67,6 @@ closeX.addEventListener('click', () => {
   closeX.classList.toggle('showUlItems');
 });
 
-console.log(liArr);
 liArr.forEach((el) => {
   el.addEventListener('click', () => {
     hamburger.classList.remove('hide');
@@ -85,7 +108,7 @@ function speakers() {
   </div>
   
   <div class="allSpeakers my-4 col-md-5">
-    <div id="speaker3" class="d-md-flex speaker1 d-none">
+    <div id="speaker3" class="d-flex speaker1 ">
       <img src="${speakersArr[2].image}" alt="third speaker" />
       <div class="personName ms-3">
         <h4>${speakersArr[2].speakerName}</h4>
@@ -97,16 +120,61 @@ function speakers() {
       </div>
     </div>
   </div>
+
+  <div class="allSpeakers my-4 col-md-5">
+    <div id="speaker3" class="d-flex speaker1 ">
+      <img src="${speakersArr[3].image}" alt="third speaker" />
+      <div class="personName ms-3">
+        <h4>${speakersArr[3].speakerName}</h4>
+        <p>
+          <i class="text-danger">${speakersArr[2].aboutSpeaker}</i>
+        </p>${speakersArr[3].speakerqualif}<p>
+          
+        </p>
+      </div>
+    </div>
   </div>
+
+  <div class="allSpeakers my-4 col-md-5">
+    <div id="speaker3" class="d-flex speaker1 ">
+      <img src="${speakersArr[4].image}" alt="third speaker" />
+      <div class="personName ms-3">
+        <h4>${speakersArr[4].speakerName}</h4>
+        <p>
+          <i class="text-danger">${speakersArr[2].aboutSpeaker}</i>
+        </p>${speakersArr[4].speakerqualif}<p>
+          
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="allSpeakers my-4 col-md-5">
+    <div id="speaker6" class="d-none speaker1 ">
+      <img src="${speakersArr[5].image}" alt="third speaker" />
+      <div class="personName ms-3">
+        <h4>${speakersArr[5].speakerName}</h4>
+        <p>
+          <i class="text-danger">${speakersArr[2].aboutSpeaker}</i>
+        </p>${speakersArr[5].speakerqualif}<p>
+          
+        </p>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  
   
   <button id="btn" class="w-100 my-5 p-4 d-md-none">SHOW MORE</button>`;
   speakersDiv.innerHTML = data;
 
   const btn = document.getElementById('btn');
-  const speaker3 = document.getElementById('speaker3');
+  const speaker6 = document.getElementById('speaker6');
 
+  console.log(speaker6);
   btn.addEventListener('click', () => {
-    speaker3.classList.toggle('show');
+    speaker6.classList.toggle('show');
     if (btn.innerHTML === 'SHOW MORE') {
       btn.innerHTML = 'SHOW LESS';
     } else if (btn.innerHTML === 'SHOW LESS') {

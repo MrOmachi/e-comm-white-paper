@@ -220,4 +220,14 @@ body footer .footerIcons .icons {
     width: 7% !important;
     margin: auto;
   }
+  .aboutfooterIcons {
+    display: none;
+  }
+  .aboutFooter {
+    background-color: #272a31 !important;
+    color: white;
+  }
+  .copyRight {
+    padding: 0 !important;
+  }
 }/*# sourceMappingURL=style.css.map */

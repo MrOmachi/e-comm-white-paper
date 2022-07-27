@@ -157,6 +157,17 @@ body main .speakers {
   width: 90%;
   margin: auto;
 }
+body main .speakers h4 {
+  font-weight: 500;
+  font-family: "COCOGOOSE", sans-serif;
+}
+body main .speakers h5 {
+  font-family: "COCOGOOSE", sans-serif;
+}
+body main .speakers p {
+  font-weight: 400;
+  font-family: "Lato", sans-serif;
+}
 body main .speakers .divider {
   width: 15%;
   margin: auto;

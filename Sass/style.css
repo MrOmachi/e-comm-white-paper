@@ -13,6 +13,14 @@ body {
   background-color: #f9f9f9 !important;
   position: relative;
 }
+body .aboutMLogo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 60px;
+  width: 70%;
+}
 body footer img {
   padding: 20px;
 }
@@ -229,6 +237,7 @@ body footer .footerIcons .icons {
     display: none;
   }
   .aboutFooter {
+    margin: 20px;
     background-color: #272a31 !important;
     color: white;
   }

@@ -281,7 +281,7 @@ body {
 
 @media (min-width: 765px) {
   .Program {
-    height: 270px !important;
+    height: 240px !important;
     padding: 0 !important;
     align-items: center;
   }
@@ -294,6 +294,8 @@ body {
 
   .Program h2 {
     color: #ec5242;
+    width: 100% !important;
+    text-align: center;
     padding: 0 !important;
     font-size: 1.5rem;
     font-size: 17px;

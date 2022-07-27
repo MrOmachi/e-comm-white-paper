@@ -15,6 +15,10 @@
 
 ## Getting Started
 
+## Video description of project work
+
+[Video link](https://drive.google.com/file/d/1JXfhMIizgRoNUf-TVQBWkxgc4WLazwsX/view?usp=sharing)
+
 **this website can be viewd on all screen sizes**
 
 **The purpose of these project is to build an e-commerce whitepaper presentation website using the behance template. This project includes linters for Reporting errors in HTML, CSS , JAVASCRIPT and An open-source, automated tool for improving the quality of web pages, which has audits for performance, accessibility, progressive web apps, SEO and more.**
@@ -25,7 +29,7 @@ To get a local copy up and running follow these simple example steps.
 
 Step 1: Type the following command into a git shell
 
-git clone https://github.com/MrOmachi/Portfolio-Microverse.git
+git clone https://github.com/MrOmachi/e-comm-white-paper.git
 
 Step 2: Direct a terminal into the cloned repository directory
 

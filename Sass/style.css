@@ -161,6 +161,11 @@ body footer .dividerFooter {
   height: 3px;
   background-color: #ec5242;
 }
+body footer .copyRight {
+  display: flex;
+  justify-content: center;
+  gap: 90px;
+}
 body footer .footerIcons {
   background-color: #333;
   color: white;

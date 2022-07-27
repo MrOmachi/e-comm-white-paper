@@ -40,7 +40,7 @@ body .showUlItems a {
   font-size: 20px;
 }
 body .show {
-  display: flex;
+  display: flex !important;
 }
 body .hide {
   display: none;
@@ -122,7 +122,7 @@ body main .mainProgram .Program {
   width: 95%;
   margin: auto;
   display: flex;
-  justify-content: space-between;
+  gap: 10px;
   align-items: center;
   margin-bottom: 10px;
   background-color: rgba(255, 255, 255, 0.0666666667);
@@ -191,4 +191,24 @@ body footer .footerIcons .icons {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+@media (min-width: 765px) {
+  .Program {
+    height: 270px !important;
+    padding: 0 !important;
+    align-items: center;
+  }
+  .Program p {
+    font-size: 16px;
+    width: 100% !important;
+    text-align: center;
+  }
+  .Program h2 {
+    color: #ec5242;
+    padding: 0 !important;
+    font-size: 1.5rem;
+    font-size: 17px;
+    margin: 0 !important;
+  }
 }/*# sourceMappingURL=style.css.map */

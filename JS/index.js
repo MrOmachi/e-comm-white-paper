@@ -150,7 +150,7 @@ function speakers() {
   </div>
 
   <div class="allSpeakers my-4 col-md-5">
-    <div id="speaker6" class="d-none speaker1 ">
+    <div id="speaker6" class="d-flex speaker1 ">
       <img src="${speakersArr[5].image}" alt="third speaker" />
       <div class="personName ms-3">
         <h4>${speakersArr[5].speakerName}</h4>

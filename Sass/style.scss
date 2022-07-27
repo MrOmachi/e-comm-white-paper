@@ -139,7 +139,7 @@ body {
         width: 95%;
         margin: auto;
         display: flex;
-        justify-content: space-between;
+        gap: 10px;
         align-items: center;
         margin-bottom: 10px;
         background-color: #fff1;
@@ -225,5 +225,27 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+}
+
+@media (min-width: 765px) {
+  .Program {
+    height: 270px !important;
+    padding: 0 !important;
+    align-items: center;
+  }
+
+  .Program p {
+    font-size: 16px;
+    width: 100% !important;
+    text-align: center;
+  }
+
+  .Program h2 {
+    color: #ec5242;
+    padding: 0 !important;
+    font-size: 1.5rem;
+    font-size: 17px;
+    margin: 0 !important;
   }
 }

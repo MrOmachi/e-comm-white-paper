@@ -130,15 +130,17 @@ body main .mainProgram .Program {
 }
 body main .mainProgram .Program p {
   font-size: 16px;
-  width: 60%;
+  width: 50%;
 }
 body main .mainProgram .Program h2 {
+  width: 40%;
   color: #ec5242;
   padding: 0 10px;
   font-size: 1.5rem;
+  font-size: 17px;
 }
 body main .mainProgram .speakers img {
-  height: 10rem;
+  width: 5%;
 }
 body main .mainProgram .Program img {
   height: 3rem;

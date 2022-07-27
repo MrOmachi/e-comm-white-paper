@@ -156,7 +156,7 @@ body main .speakers .divider {
   background-color: #ec5242;
 }
 body footer .dividerFooter {
-  width: 15%;
+  width: 10%;
   margin: auto;
   height: 3px;
   background-color: #ec5242;
@@ -215,5 +215,9 @@ body footer .footerIcons .icons {
     background: none !important;
     text-decoration: underline;
     font-size: 15px;
+  }
+  .dividerFooter {
+    width: 7% !important;
+    margin: auto;
   }
 }/*# sourceMappingURL=style.css.map */

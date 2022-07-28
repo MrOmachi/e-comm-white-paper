@@ -1,0 +1,340 @@
+@import url('http://fonts.cdnfonts.com/css/cocogoose');
+@import url('http://fonts.cdnfonts.com/css/lato');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #f9f9f9 !important;
+  position: relative;
+
+  .aboutMLogo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0;
+    width: 70%;
+  }
+
+  footer img {
+    padding: 20px;
+  }
+
+  .logo img {
+    height: 8rem;
+  }
+
+  .showUlItems {
+    display: flex !important;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #ec5242;
+    position: fixed;
+    padding-top: 40px;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: 0 !important;
+    overflow-y: hidden;
+    z-index: 100;
+
+    a {
+      color: white !important;
+      font-size: 20px;
+    }
+  }
+
+  .show {
+    display: flex !important;
+  }
+
+  .hide {
+    display: none;
+  }
+
+  header {
+    width: 100%;
+    margin: auto;
+
+    .topNavContain {
+      width: 80%;
+      margin: auto;
+    }
+
+    .desktopNav {
+      width: 90%;
+      margin: auto;
+    }
+
+    .logo img {
+      height: 4rem;
+    }
+
+    h3 {
+      color: #ec5242;
+      width: 80%;
+      margin: auto;
+      font-size: 20px;
+      font-family: 'COCOGOOSE', sans-serif;
+      font-weight: 300;
+      padding: 25px 0 10px 0;
+    }
+
+    h1 {
+      color: #ec5242;
+      font-weight: 700;
+      font-family: 'COCOGOOSE', sans-serif;
+      font-size: 30px;
+      width: 80%;
+      margin: auto;
+    }
+  }
+
+  main {
+    width: 90%;
+    margin: auto;
+
+    .hero {
+      background-image: url(../img/shape-set-01.png);
+      background-size: 250px;
+      background-position-y: 250px;
+      background-repeat: no-repeat;
+      padding: 2rem 1rem 7rem 1rem;
+
+      .moment {
+        background-color: #f7f7f7;
+        width: 90%;
+        margin: auto;
+        border: solid 0.25rem white;
+        font-family: 'Lato', sans-serif;
+      }
+
+      .date {
+        font-family: 'COCOGOOSE', sans-serif;
+        font-weight: 600;
+        font-size: 17px;
+        padding-top: 10px;
+        width: 80%;
+        margin: auto;
+      }
+
+      .ejay {
+        font-family: 'COCOGOOSE', sans-serif;
+        font-weight: 800;
+        font-size: 17px;
+        width: 80%;
+        margin: auto;
+      }
+    }
+
+    .mainProgram {
+      background-image: url(../img/download.svg);
+      background-color: #272a31;
+      padding: 25px 0;
+
+      button {
+        width: 92%;
+        margin: auto;
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #ec5242;
+        color: white;
+        padding: 24px 48px;
+        font-weight: 600;
+        cursor: pointer;
+        align-self: center;
+      }
+
+      .divider {
+        width: 15%;
+        margin: auto;
+        height: 3px;
+        background-color: #ec5242;
+      }
+
+      .Program {
+        width: 95%;
+        margin: auto;
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        margin-bottom: 10px;
+        background-color: #fff1;
+        padding: 5px;
+      }
+
+      .speakers {
+        width: 90%;
+        margin: auto;
+
+        h4 {
+          font-weight: 700;
+          font-family: 'COCOGOOSE', sans-serif;
+        }
+
+        h5 {
+          font-family: 'COCOGOOSE', sans-serif;
+        }
+
+        p {
+          font-weight: 400;
+          font-family: 'Lato', sans-serif;
+        }
+      }
+
+      .Program p {
+        font-size: 16px;
+        width: 60%;
+      }
+
+      .Program h2 {
+        width: 30%;
+        color: #ec5242;
+        padding: 0 10px;
+        font-size: 1.5rem;
+        font-size: 17px;
+      }
+
+      .speakers img {
+        width: 5%;
+      }
+
+      .Program img {
+        height: 3rem;
+      }
+    }
+
+    .speakers .divider {
+      width: 15%;
+      margin: auto;
+      height: 3px;
+      background-color: #ec5242;
+    }
+  }
+
+  footer {
+    .dividerFooter {
+      width: 10%;
+      margin: auto;
+      height: 3px;
+      background-color: #ec5242;
+    }
+
+    .copyRight {
+      display: flex;
+      justify-content: center;
+      gap: 90px;
+    }
+
+    .footerIcons {
+      background-color: #333;
+      color: white;
+      padding-top: 30px;
+      padding-bottom: 10px;
+    }
+
+    .footerIcons .icons {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 25px 0 8px 0;
+    }
+  }
+}
+
+.aboutMain {
+  .aboutHero {
+    background-image: url(../img/shape-set-01.png);
+    background-size: 150px;
+    background-position-x: center;
+    background-position-y: top;
+    background-repeat: no-repeat;
+    padding: 4rem 1rem 1rem 1rem;
+
+    .bold {
+      font-weight: 400;
+    }
+  }
+
+  .twentyThirteen {
+    background:
+      linear-gradient(rgba(100, 0, 10, 0.5), rgba(100, 0, 8, 0.5)),
+      url(../img/Concert3.jpg);
+    background-repeat: no-repeat;
+    height: 200px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (min-width: 765px) {
+  .Program {
+    height: 240px !important;
+    padding: 0 !important;
+    align-items: center;
+  }
+
+  .Program p {
+    font-size: 16px;
+    width: 100% !important;
+    text-align: center;
+  }
+
+  .Program h2 {
+    color: #ec5242;
+    width: 100% !important;
+    text-align: center;
+    padding: 0 !important;
+    font-size: 1.5rem;
+    font-size: 17px;
+    margin: 0 !important;
+  }
+
+  button {
+    background: none !important;
+    text-decoration: underline;
+    font-size: 15px;
+  }
+
+  .dividerFooter {
+    width: 8% !important;
+    margin: auto;
+  }
+
+  .aboutfooterIcons {
+    display: none;
+  }
+
+  .aboutFooter {
+    margin: 20px;
+    background-color: #272a31 !important;
+    color: white;
+  }
+
+  .copyRight {
+    padding: 0 !important;
+  }
+
+  .speakers {
+    width: 90%;
+    margin: auto;
+  }
+
+  .topNav {
+    display: flex;
+    justify-content: space-between;
+  }
+}
